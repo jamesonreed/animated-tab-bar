@@ -18,6 +18,13 @@
 		45E4D28F1CAABF7F000A1919 /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E4D2861CAABF7F000A1919 /* RAMAnimatedTabBarController.swift */; };
 		45E4D2901CAABF7F000A1919 /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E4D2881CAABF7F000A1919 /* RAMBadge.swift */; };
 		45E4D2911CAABF7F000A1919 /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E4D2891CAABF7F000A1919 /* RAMItemAnimationProtocol.swift */; };
+		45E4D29F1CAAC4EC000A1919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E4D2951CAAC4EC000A1919 /* AppDelegate.swift */; };
+		45E4D2A01CAAC4EC000A1919 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45E4D2961CAAC4EC000A1919 /* LaunchScreen.xib */; };
+		45E4D2A11CAAC4EC000A1919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E4D2981CAAC4EC000A1919 /* Main.storyboard */; };
+		45E4D2A21CAAC4EC000A1919 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45E4D29A1CAAC4EC000A1919 /* Images.xcassets */; };
+		45E4D2A31CAAC4EC000A1919 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45E4D29B1CAAC4EC000A1919 /* Info.plist */; };
+		45E4D2A41CAAC4EC000A1919 /* ToolsAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45E4D29D1CAAC4EC000A1919 /* ToolsAnimation.plist */; };
+		45E4D2A51CAAC4EC000A1919 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E4D29E1CAAC4EC000A1919 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,13 @@
 		45E4D2861CAABF7F000A1919 /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RAMAnimatedTabBarController.swift; path = ../../../RAMAnimatedTabBarController/RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
 		45E4D2881CAABF7F000A1919 /* RAMBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBadge.swift; sourceTree = "<group>"; };
 		45E4D2891CAABF7F000A1919 /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RAMItemAnimationProtocol.swift; path = ../../../RAMAnimatedTabBarController/RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		45E4D2951CAAC4EC000A1919 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45E4D2971CAAC4EC000A1919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		45E4D2991CAAC4EC000A1919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45E4D29A1CAAC4EC000A1919 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		45E4D29B1CAAC4EC000A1919 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45E4D29D1CAAC4EC000A1919 /* ToolsAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ToolsAnimation.plist; sourceTree = "<group>"; };
+		45E4D29E1CAAC4EC000A1919 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +83,7 @@
 		45E4D2571CAABF57000A1919 = {
 			isa = PBXGroup;
 			children = (
+				45E4D2941CAAC4EC000A1919 /* RAMAnimatedTabBarDemo */,
 				45E4D2631CAABF57000A1919 /* AnimatedTabBar */,
 				45E4D26F1CAABF57000A1919 /* AnimatedTabBarTests */,
 				45E4D2621CAABF57000A1919 /* Products */,
@@ -168,6 +183,29 @@
 			path = ../../../RAMAnimatedTabBarController/RAMBadge;
 			sourceTree = "<group>";
 		};
+		45E4D2941CAAC4EC000A1919 /* RAMAnimatedTabBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				45E4D2951CAAC4EC000A1919 /* AppDelegate.swift */,
+				45E4D2961CAAC4EC000A1919 /* LaunchScreen.xib */,
+				45E4D2981CAAC4EC000A1919 /* Main.storyboard */,
+				45E4D29A1CAAC4EC000A1919 /* Images.xcassets */,
+				45E4D29B1CAAC4EC000A1919 /* Info.plist */,
+				45E4D29C1CAAC4EC000A1919 /* Resources */,
+				45E4D29E1CAAC4EC000A1919 /* ViewController.swift */,
+			);
+			name = RAMAnimatedTabBarDemo;
+			path = ../../RAMAnimatedTabBarDemo/RAMAnimatedTabBarDemo;
+			sourceTree = "<group>";
+		};
+		45E4D29C1CAAC4EC000A1919 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				45E4D29D1CAAC4EC000A1919 /* ToolsAnimation.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -242,6 +280,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 45E4D2571CAABF57000A1919;
 			productRefGroup = 45E4D2621CAABF57000A1919 /* Products */;
@@ -259,6 +298,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45E4D2A31CAAC4EC000A1919 /* Info.plist in Resources */,
+				45E4D2A21CAAC4EC000A1919 /* Images.xcassets in Resources */,
+				45E4D2A41CAAC4EC000A1919 /* ToolsAnimation.plist in Resources */,
+				45E4D2A01CAAC4EC000A1919 /* LaunchScreen.xib in Resources */,
+				45E4D2A11CAAC4EC000A1919 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +320,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45E4D2A51CAAC4EC000A1919 /* ViewController.swift in Sources */,
 				45E4D28B1CAABF7F000A1919 /* RAMFrameItemAnimation.swift in Sources */,
 				45E4D28F1CAABF7F000A1919 /* RAMAnimatedTabBarController.swift in Sources */,
 				45E4D2911CAABF7F000A1919 /* RAMItemAnimationProtocol.swift in Sources */,
+				45E4D29F1CAAC4EC000A1919 /* AppDelegate.swift in Sources */,
 				45E4D28D1CAABF7F000A1919 /* RAMRotationAnimation.swift in Sources */,
 				45E4D28C1CAABF7F000A1919 /* RAMFumeAnimation.swift in Sources */,
 				45E4D28A1CAABF7F000A1919 /* RAMBounceAnimation.swift in Sources */,
@@ -304,6 +350,25 @@
 			targetProxy = 45E4D26D1CAABF57000A1919 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45E4D2961CAAC4EC000A1919 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45E4D2971CAAC4EC000A1919 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		45E4D2981CAAC4EC000A1919 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45E4D2991CAAC4EC000A1919 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		45E4D2731CAABF57000A1919 /* Debug */ = {
